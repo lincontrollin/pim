@@ -10,6 +10,21 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>pim-app</artifactId>
+    <dependencies>
+		<dependency> 
+		    <groupId>com.taobao.mtee</groupId> 
+		    <artifactId>mtee-service</artifactId> 
+		    <version>3.5-SNAPSHOT</version> 
+		</dependency>
+    </dependencies>
+    <repositories>  
+	    <repository>  
+	      <id>ali</id>  
+	      <url>http://mvnrepo.alibaba-inc.com/mvn/repository</url>  
+	      <snapshots><enabled>true</enabled></snapshots>  
+	      <releases><enabled>true</enabled></releases>  
+	    </repository>  
+  </repositories>  
 
 
 </project>
